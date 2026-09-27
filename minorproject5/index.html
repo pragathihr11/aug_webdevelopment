@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Atmos & Reel</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">ATMOS <span>&</span> REEL</div>
+
+    <nav>
+      <a href="#weather">Weather</a>
+      <a href="#movies">Movies</a>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- HERO -->
+
+    <section class="hero">
+      <p class="eyebrow">YOUR DIGITAL DISCOVERY DESK</p>
+
+      <h1>
+        Know the <em>weather.</em><br>
+        Find the <em>story.</em>
+      </h1>
+
+      <p class="hero-text">
+        Explore what's happening outside and discover something
+        worth watching inside.
+      </p>
+    </section>
+
+
+    <!-- WEATHER APP -->
+
+    <section class="app-section" id="weather">
+
+      <div class="section-heading">
+        <span>01 / WEATHER</span>
+        <h2>What's the sky saying?</h2>
+      </div>
+
+      <div class="weather-box">
+
+        <div class="search-box">
+          <input
+            type="text"
+            id="cityInput"
+            placeholder="Enter your city..."
+          >
+
+          <button id="weatherBtn">
+            Search
+          </button>
+        </div>
+
+        <div id="weatherResult" class="weather-result">
+
+          <p class="placeholder">
+            Search for a city to see its current weather.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- MOVIE APP -->
+
+    <section class="app-section" id="movies">
+
+      <div class="section-heading">
+        <span>02 / MOVIES</span>
+        <h2>What should we watch?</h2>
+      </div>
+
+      <div class="movie-box">
+
+        <div class="search-box">
+          <input
+            type="text"
+            id="movieInput"
+            placeholder="Search for a movie..."
+          >
+
+          <button id="movieBtn">
+            Search
+          </button>
+        </div>
+
+        <div id="movieResult" class="movie-result">
+
+          <p class="placeholder">
+            Search for a movie and discover something new.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+    <p>ATMOS & REEL</p>
+    <span>Weather × Cinema</span>
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
